@@ -27,8 +27,10 @@ public class PlayerMovement : MonoBehaviour
         //playerScript.trackingOriginTransform.position = ball.transform.position - new Vector3(0, ball.GetComponent<SphereCollider>().radius / 2);
         //Console.WriteLine(ball);
        Vector3 position = ball.transform.position;
-       Console.WriteLine(position);
-       playerScript.trackingOriginTransform.position = position + new Vector3(0,-1,0.2f);
+       playerScript.trackingOriginTransform.position = position + new Vector3(0,-1,0);
 
         }
-    }
+
+
+
+}
